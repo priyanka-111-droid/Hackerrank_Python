@@ -6,7 +6,7 @@ Hackerrank Python solutions done topic wise. Tricky solutions are explained and 
 
 ### Introduction
 
-- Can also input multiple numbers like this : a,b= [int(input()) for _ in range(2)]
+- Can also input multiple numbers like this(when numbers entered on new line) : a,b= [int(input()) for _ in range(2)]
 
 ### Basic Data Types
 
@@ -28,3 +28,11 @@ Hackerrank Python solutions done topic wise. Tricky solutions are explained and 
     - phi: cmath.phase(complex(z))
 
 - It's also possible to calculate pow(a,b,m)  
+
+### Itertools
+
+- itertools.product - combination of cartesian products.
+```
+ print(*(list(itertools.product(A,B)))) # * will print all elements in the list.
+```
+- itertools.permutations
