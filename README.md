@@ -36,3 +36,23 @@ Hackerrank Python solutions done topic wise. Tricky solutions are explained and 
  print(*(list(itertools.product(A,B)))) # * will print all elements in the list.
 ```
 - itertools.permutations
+
+### Collections
+
+- counter
+- Data = namedtuple('Data', columns)
+- OrderedDict: An OrderedDict is a dictionary that remembers the order of the keys that were inserted first. If a new entry overwrites an existing entry, the original insertion position is left unchanged.
+
+### Date and Time
+- calendar.weekday(year, month, day)
+- datetime.strptime(timestamp, format)
+
+
+### Errors and Exceptions
+- Exceptions -> Errors detected during execution
+- Exception handling with try,catch,else,finally:
+Try: This block will test the excepted error to occur
+Except:  Here you can handle the error
+Else: If there is no exception then this block will be executed
+Finally: Finally block always gets executed either exception is generated or not
+- 
