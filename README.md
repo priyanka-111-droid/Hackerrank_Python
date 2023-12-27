@@ -7,6 +7,7 @@ Hackerrank Python solutions done topic wise. Tricky solutions are explained and 
 ### Introduction
 
 - Can also input multiple numbers like this(when numbers entered on new line) : a,b= [int(input()) for _ in range(2)]
+- input N and X separated by space(N,X are integers): N,X = map(int,input().split())
 
 ### Basic Data Types
 
@@ -55,4 +56,27 @@ Try: This block will test the excepted error to occur
 Except:  Here you can handle the error
 Else: If there is no exception then this block will be executed
 Finally: Finally block always gets executed either exception is generated or not
-- 
+- import re(regex library)
+
+### Classes
+
+### Built Ins
+
+- eval keyword usage
+- zip function 
+- EOF Error
+- sorted(s, key=lambda x: (x.isdigit(), x.isdigit() and int(x) % 2 == 0, x.isupper(), x))
+
+### Functionals
+- map
+- reduce
+- re.match for emails
+
+### XML
+
+
+### Closures and Decorators
+
+### Numpy
+
+### Debugging
