@@ -74,9 +74,31 @@ Finally: Finally block always gets executed either exception is generated or not
 
 ### XML
 
-
 ### Closures and Decorators
 
 ### Numpy
+- numpy arrays like lists except only same datatype
+- import numpy(can also do import numpy as np)
+- arr = numpy.arrays([1,2,3,4],int)
+- shape,reshape
+- numpy.transpose([[1,2,3],[4,5,6]]),arr.flatten()
+- identity 
+```
+import numpy
+print numpy.identity(3) #3 is for  dimension 3 X 3
+
+#Output
+[[ 1.  0.  0.]
+ [ 0.  1.  0.]
+ [ 0.  0.  1.]]
+```
+- eye:
+2-D array with 1's as the diagonal and 0's elsewhere. The diagonal can be main, upper or lower depending on the optional parameter l .
+```
+print(numpy.eye(N,M,k=0)) #k=0 means main diagonal(default value),N is number of rows, M number of cols.
+```
+- math operations
+- floor,ceil,rint
+
 
 ### Debugging
